@@ -1,0 +1,25 @@
+{
+  "name": "to-binary-and-invert",
+  "version": "1.0.0",
+  "description": "Strings and numbers to binary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renanbastos93/toBinary.git"
+  },
+  "keywords": [
+    "binary",
+    "invert",
+    "convert",
+    "decimal"
+  ],
+  "author": "Renan Bastos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renanbastos93/toBinary/issues"
+  },
+  "homepage": "https://github.com/renanbastos93/toBinary#readme"
+}
