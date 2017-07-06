@@ -51,6 +51,14 @@ function toBinary(param){
     return bin;
 }
 
+function hexToStringUTF8(str){
+    var result = "";
+    str.split(" ").forEach(item => {
+	    result += String.fromCharCode(parseInt(item, 16));
+    });
+    return result;
+}
+
 var arr = convertStrDeciaml('renan');
 var txt = invertStrDeciaml(arr);
 var float = convertNumber(123.456);
