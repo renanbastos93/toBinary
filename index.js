@@ -56,7 +56,7 @@ function hexToStringUTF8(str){
     str.split(" ").forEach(item => {
 	    result += String.fromCharCode(parseInt(item, 16));
     });
-    return result;
+    return decodeURIComponent(escape(result));
 }
 
 var arr = convertStrDeciaml('renan');
